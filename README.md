@@ -17,6 +17,8 @@ Our ultimate selection was the Support Vector Machine (SVM). The core aim of thi
 
 To carry out this job we made use of some libraries such as pandas (used specifically for data manipulation and analysis) and sklearn; in particular we used train_test_split (to split the dataset into subsets that minimize the potential for bias in the evaluation and validation process), TfidfVectorizer (to convert raw documents to a matrix of TF-IDF features), SVC (to fit to the data provided, returning a "best fit" hyperplane that divides, or categorizes the data), classification_report (to compute the accuracy of a classification model based on the values from the confusion matrix), accuracy_score (to calculate the accuracy score for a set of predicted labels against the true labels), confusion_matrix (to evaluate the performance of a machine learning algorithm), and finally Pipeline (to link all steps of data manipulation together to create a pipeline). 
 
+![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lastampa.it%2Fla-zampa%2F2023%2F06%2F13%2Fnews%2Fevoluzione_cane_intelligenza_artificiale_somiglianza_volpe-404220491%2F&psig=AOvVaw0Xrja4v1VbuXg36L5a3pFq&ust=1701872695992000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPiS64DA-IIDFQAAAAAdAAAAABAD)
+
 (*to add conda envexport and conda list*)
 (*files too?*)
 *• It may help to include a figure illustrating your ideas, e.g., a flowchart illustrating the steps in your machine learning system(s)*
@@ -41,7 +43,8 @@ The peak of our efforts, the third and ultimate model, showcased substantial pro
 *• All the figures containing results should be generated from the code.*
 
 [Section 5] 
-*conclusions*
-*List some concluding remarks. In particular:*
-*• Summarize in one paragraph the take-away point from your work.*
-*• Include one paragraph to explain what questions may not be fully answered by your work as well as natural next steps for this direction of future work*
+Takeaway Point:
+In summary, our investigation into fraud detection models underscored the central role of specific features, such as word presence and message length, in optimizing accuracy and precision. The iterative refinement process revealed that Logistic Regression, when augmented with these crucial parameters, emerged as the most successful model in minimizing classification errors. The significance of understanding nuanced relationships within the data became evident, leading to a robust framework for effective fraud detection.
+
+Unanswered Questions and Future Directions:
+While our work has significantly advanced fraud detection, there remain areas where questions persist and further exploration is warranted. One aspect not fully addressed is the dynamic nature of fraudulent activities, which may evolve over time. Future work could delve into developing models adaptable to emerging fraud patterns. Additionally, investigating the potential impact of contextual factors, such as user behavior and geographic variations, could contribute to a more comprehensive understanding of fraud detection dynamics. Exploring the integration of advanced deep learning architectures and exploring ensemble methods could represent promising avenues for enhancing model robustness and adaptability. As technology and cyber threats evolve, ongoing research and refinement will be essential to stay ahead in the ever-changing landscape of fraud detection.
