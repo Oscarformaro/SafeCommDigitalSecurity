@@ -5,6 +5,8 @@ Member 1 (captain): Riccardo Aversa 283831
 Member 2: Alice Alessandrelli 279371
 Member 3: Oscar Maria Formaro 260581
 
+
+
 [Section 1]
 We were assigned to work on the SafeComm project: a company that aims at eliminating SMS-based fraud. Nowadays we all communicate mainly through text messages on our mobile phones and people have taken the opportunity to scam people through them. 
 SafeComm's purpose is exactly that of minimizing these crooked messages or emails that we get. Starting from there we were asked to test three machine learning models that were able to carry out this type of work efficiently. 
@@ -17,7 +19,7 @@ Our ultimate selection was the Support Vector Machine (SVM). The core aim of thi
 
 To carry out this job we made use of some libraries such as pandas (used specifically for data manipulation and analysis) and sklearn; in particular we used train_test_split (to split the dataset into subsets that minimize the potential for bias in the evaluation and validation process), TfidfVectorizer (to convert raw documents to a matrix of TF-IDF features), SVC (to fit to the data provided, returning a "best fit" hyperplane that divides, or categorizes the data), classification_report (to compute the accuracy of a classification model based on the values from the confusion matrix), accuracy_score (to calculate the accuracy score for a set of predicted labels against the true labels), confusion_matrix (to evaluate the performance of a machine learning algorithm), and finally Pipeline (to link all steps of data manipulation together to create a pipeline). 
 
-![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lastampa.it%2Fla-zampa%2F2023%2F06%2F13%2Fnews%2Fevoluzione_cane_intelligenza_artificiale_somiglianza_volpe-404220491%2F&psig=AOvVaw0Xrja4v1VbuXg36L5a3pFq&ust=1701872695992000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPiS64DA-IIDFQAAAAAdAAAAABAD)
+![alt text](https://github.com/Oscarformaro/SafeCommDigitalSecurity/blob/36c0485e6dcc7d39b2a9502a85d6389d32e6f54c/Screenshot%202023-10-09%20111539.png)
 
 (*to add conda envexport and conda list*)
 (*files too?*)
